@@ -29,7 +29,7 @@ The structure of a record (product) in the index file respects the following for
 ### How to run?
 - Clone the Repository
     ```bash
-    git clone https://github.com/safe-graph/
+    git clone https://github.com/alexandreclem/BTreeDataManagement.git
     ```
 - In the source_code direcotory, run:
     ```bash
