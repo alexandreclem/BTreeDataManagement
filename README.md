@@ -1,4 +1,4 @@
-# Data management using B-Trees
+# Data management using B-Tree
 
 ## What it does?
 This work aims to present a possible application of the B-Tree data structure in the organization and manipulation of data in a hypothetical product catalog. The program that was written in C language synchronizes the data file, which represents the catalog, and the index file that refers to the representation of the catalog in B-Tree format.
