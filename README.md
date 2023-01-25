@@ -43,3 +43,17 @@ The structure of a record (product) in the index file respects the following for
     ```bash
     ./work prod.dat ibtree.idx
     ```
+
+### How to use?
+![title](./images/img_2.png)
+
+> **NOTE**
+    > The application was primarily aimed to portuguese speakers, so the GUI and the code have a lot of portuguese words and phrases.
+
+- You can, in the order as shown in the picture:
+    - Insert a product
+    - Remove a product
+    - Search for a product using the generated key - list all the keys first to know what to choose
+    - Update products
+    - List the products
+    - End the program
