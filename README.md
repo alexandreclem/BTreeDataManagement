@@ -51,6 +51,8 @@ The structure of a record (product) in the index file respects the following for
 >
 > The application was primarily aimed to portuguese speakers, so the CLI and the code have a lot of portuguese words and phrases.
 
+- The currently B-Tree is shown in the beginning and the end of the program
+
 - You can, in the order as shown in the picture:
     - Insert a product
     - Remove a product
