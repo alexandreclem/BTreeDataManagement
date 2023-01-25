@@ -18,8 +18,8 @@ The structure of a record (product) in the index file respects the following for
 - The index file consists of the representation of the tree B that represents the catalog, it is built through traversal at the tree level, so that each line of the file represents a node and all its keys. Before and after each node key there is a reference to some child node.
 - If the key does not exist, it is represented as <*****, -1> and if there is no reference to a child, it is represented by -1. 
 - Example of the first line (root) of an index file:
-    - Node 0:
-        $$1<10005, 5>2<10008, 8>3<*****, -1>-1<*****, -1>-1<*****,-1>-1$$
+    - Node 0:        
+        $1<10005, 5>2<10008, 8>3<*****, -1>-1<*****, -1>-1<*****,-1>-1$
 - In order to get the tree from the index file just parse each line and the child references.
 
 ### Example
