@@ -23,8 +23,9 @@ The structure of a record (product) in the index file respects the following for
 - In order to get the tree from the index file just parse each line and the child references.
 
 ### Example
-![title](./images/img.png)
-
+<p align="center" width="100%">
+    <img width="100%" src="https://raw.githubusercontent.com/alexandreclem/BTreeDataManagement/master/images/img.png">    
+</p>
 
 ### How to run?
 - Clone the Repository
@@ -45,13 +46,15 @@ The structure of a record (product) in the index file respects the following for
     ```
 
 ### How to use?
-![title](./images/img_2.png)
+<p align="center" width="100%">
+    <img width="100%" src="https://raw.githubusercontent.com/alexandreclem/BTreeDataManagement/master/images/img_2.png">    
+</p>
 
 > **NOTE**
 >
-> The application was primarily aimed to portuguese speakers, so the CLI and the code have a lot of portuguese words and phrases
+> The application was primarily aimed to portuguese speakers, so the CLI and the code have a lot of portuguese words and phrases.
 
-- The currently B-Tree is shown in the beginning and the end of the program
+- The currently B-Tree is shown in the beginning and the end of the program.
 
 - You can, in the order as shown in the picture:
     - Insert a product
