@@ -48,7 +48,7 @@ The structure of a record (product) in the index file respects the following for
 ![title](./images/img_2.png)
 
 > **NOTE**
-    > The application was primarily aimed to portuguese speakers, so the GUI and the code have a lot of portuguese words and phrases.
+> The application was primarily aimed to portuguese speakers, so the CLI and the code have a lot of portuguese words and phrases.
 
 - You can, in the order as shown in the picture:
     - Insert a product
