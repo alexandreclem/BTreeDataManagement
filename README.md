@@ -12,7 +12,7 @@ The structure of a record (product) in the index file respects the following for
 - A character '@' is placed at the end of each piece of information. The primary key has a fixed size of 5B, the year has a fixed size of 4B, the characters '@' occupy 6B, the other information has variable sizes, of so that the total size of the record never exceeds 192B, that is, the sum of the sizes of the brand, description, and price must have a maximum of 177B.
 - If the sum of the information sizes and the '@' characters do not fill 192B, '*' characters are used to complete the record. The deletion of a record (product) is done in such a way that the first character of the record is replaced by '#'. For example, if a record has: key = 5B / name = 20B / brand = 20B / description = 110B / year = 4B / price = 5B, we would have:
     - Registration:
-        - $$key@name@brand@description-@year@price@***************** *****$$
+        - $key@name@brand@description-@year@price@***************** *****$
 
 #### The Index File
 - The index file consists of the representation of the tree B that represents the catalog, it is built through traversal at the tree level, so that each line of the file represents a node and all its keys. Before and after each node key there is a reference to some child node.
