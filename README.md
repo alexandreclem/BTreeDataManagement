@@ -30,19 +30,19 @@ The structure of a record (product) in the index file respects the following for
 ### How to run?
 - Clone the Repository
     ```bash
-    git clone https://github.com/alexandreclem/BTreeDataManagement.git
+    $ git clone https://github.com/alexandreclem/BTreeDataManagement.git
     ```
 - In the **src** direcotory, run:
     ```bash
-    gcc work.c -o work
+    $ gcc work.c -o work
     ```
 - In windows operating system you must execute the *.exe* file:
     ```bash
-    work.exe prod.dat ibtree.idx
+    $ work.exe prod.dat ibtree.idx
     ```
 - In unix-based systems you must execute:
     ```bash
-    ./work prod.dat ibtree.idx
+    $ ./work prod.dat ibtree.idx
     ```
 
 ### How to use?
